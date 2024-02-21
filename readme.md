@@ -16,3 +16,22 @@ Crea un container nel DOM , aggiungendo (attraverso la funzione append()) un ele
 
 BONUS 2:
 Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz. Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna.
+
+## STEPS
+
+- creo un elemento in html che funga da "contenitore" per il mio output
+- salvo l'elemento nel file html in una variabile in js
+- creo un ciclo for da 1 a 100
+- controllo se l'indice del ciclo è divisibile per 3 o 5 oppure 3 e 5 tramite l'operatore % che mi restituisce il resto di una divisione
+- SE divisibile per 3 stampo Fizz
+- ALTRIMENTI SE divisibile per 5 stampo Buzz
+- ALTRIMENTI SE divisibile per 3 e 5 stampo FizzBuzz
+- ALTRIMENTI stampo l'indice del ciclo 
+
+## TOOLS
+
+- tag html
+- let / const
+- for(){}
+- if/else if
+- .insertAdjacentHTML
