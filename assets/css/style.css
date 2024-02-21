@@ -36,5 +36,15 @@ body{
             font-weight: bold;
             font-size: 1rem;
         }
+
+        .fz-bz{
+            background-color:chartreuse;
+        }
+        .fz{
+            background-color:brown;
+        }
+        .bz{
+            background-color:coral;
+        }
     }
 }
